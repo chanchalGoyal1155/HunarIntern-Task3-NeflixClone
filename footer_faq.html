@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #141414;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: rgb(0, 229, 255);
+    }
+
+    .faq-section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .faq-container {
+      background: linear-gradient(145deg, #3a3a3a, #1d1d1d);
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.9);
+    }
+
+    .faq-box {
+      background-color: #2d2d2d;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .faq-box:hover {
+      background-color: #414141;
+    }
+
+    .faq-question {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .faq-answer {
+      display: none;
+      font-size: 18px;
+      padding-top: 10px;
+      border-top: 1px solid #414141;
+    }
+
+    .back-to-footer {
+      display: block;
+      margin: 40px auto;
+      padding: 12px 30px;
+      background-color: rgb(0, 229, 255);
+      color: black;
+      text-align: center;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0, 229, 255, 0.5), 0 3px 10px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s;
+    }
+
+    .back-to-footer:hover {
+      background-color: rgb(0, 189, 255);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(0, 229, 255, 0.6), 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .back-to-footer:active {
+      transform: translateY(1px);
+      box-shadow: 0 2px 5px rgba(0, 229, 255, 0.4), 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Frequently Asked Questions</h1>
+  </header>
+
+  <section class="faq-section">
+    <div class="faq-container">
+      <div class="faq-box">
+        <div class="faq-question">What is the purpose of this website?</div>
+        <div class="faq-answer">This website provides users with courses and resources on various subjects to enhance their skills.</div>
+      </div>
+      <div class="faq-box">
+        <div class="faq-question">How can I access the courses?</div>
+        <div class="faq-answer">You can access the courses by signing up for an account and selecting the courses you are interested in.</div>
+      </div>
+      <div class="faq-box">
+        <div class="faq-question">Is there a free trial available?</div>
+        <div class="faq-answer">Yes, we offer a 7-day free trial for all new users. After that, a subscription is required.</div>
+      </div>
+    </div>
+
+    <button class="back-to-footer" onclick="scrollToFooter()">Go to Footer</button>
+  </section>
+
+  <script src="script.js"></script> <!-- Link to your script.js -->
+  <script>
+    document.querySelectorAll('.faq-box').forEach(box => {
+      box.addEventListener('click', function() {
+        let answer = this.querySelector('.faq-answer');
+        answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+
+    function scrollToFooter() {
+      const footer = document.getElementById('footer');
+      footer.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

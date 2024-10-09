@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investor Relations</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #141414;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: rgb(0, 229, 255);
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: linear-gradient(145deg, #3a3a3a, #1d1d1d);
+      border-radius: 12px;
+      box-shadow: 0px 25px 60px rgba(23, 38, 44, 0.682); /* Increased shadow for content box */
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      text-align: center; /* Center align for the h2 */
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: justify; /* Justify text for paragraphs */
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 8px 0;
+    }
+
+    .back-to-footer {
+      display: block;
+      margin: 40px auto;
+      padding: 12px 30px;
+      background-color: rgb(0, 229, 255);
+      color: black;
+      text-align: center;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0, 229, 255, 0.5), 0 3px 10px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s;
+    }
+
+    .back-to-footer:hover {
+      background-color: rgb(0, 189, 255);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(0, 229, 255, 0.6), 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .back-to-footer:active {
+      transform: translateY(1px);
+      box-shadow: 0 2px 5px rgba(0, 229, 255, 0.4), 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .info-box {
+      background: linear-gradient(145deg, #3a3a3a, #1d1d1d);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px auto; /* Center align and margin for spacing */
+      box-shadow: 0px 20px 40px rgba(52, 51, 51, 0.489); /* More shadow for upper boxes */
+      max-width: 700px; /* Set a max width for the boxes */
+      text-align: center; /* Center align the text inside the boxes */
+    }
+
+    .info-box h3 {
+      margin-top: 0; /* Remove top margin for h3 inside the info box */
+    }
+
+    .footer-info-box {
+      background: linear-gradient(145deg, #3a3a3a, #1d1d1d);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px auto; /* Center align and margin for spacing */
+      box-shadow: 0px 10px 20px #335a6c4e; /* Less shadow for footer boxes */
+      max-width: 700px; /* Set a max width for the boxes */
+      text-align: center; /* Center align the text inside the boxes */
+    }
+
+    .info-box a {
+      color: rgb(0, 229, 255);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Investor Relations</h1>
+  </header>
+
+  <section>
+    <div class="content">
+      <h2>Welcome to Investor Relations</h2>
+      <p>Here you can find information about our financial performance, annual reports, and more.</p>
+
+      <h3>Key Information:</h3>
+      <ul>
+        <li>Latest Annual Report: <a href="#" style="color: rgb(0, 229, 255);">Download</a></li>
+        <li>Quarterly Earnings: <a href="#" style="color: rgb(0, 229, 255);">View Reports</a></li>
+        <li>Shareholder Meetings: <a href="#" style="color: rgb(0, 229, 255);">Upcoming Dates</a></li>
+        <li>Investor FAQs: <a href="footer_faq.html" style="color: rgb(0, 229, 255);">Read More</a></li>
+      </ul>
+
+      <h3>Contact Us:</h3>
+      <p>If you have any questions or need further information, feel free to reach out to our investor relations team:</p>
+      <p>Email: <a href="mailto:investor.relations@example.com" style="color: rgb(0, 229, 255);">investor.relations@example.com</a></p>
+      <p>Phone: <span style="color: rgb(0, 229, 255);">000-800-919-1694</span></p>
+    </div>
+
+    <div class="info-box">
+      <h3>Latest Annual Report</h3>
+      <p>The latest annual report provides an overview of our financial status and operational performance. <a href="#" style="color: rgb(0, 229, 255);">Read more.</a></p>
+    </div>
+
+    <div class="info-box">
+      <h3>Quarterly Earnings</h3>
+      <p>We regularly update our earnings reports every quarter. Stay tuned for the latest updates. <a href="#" style="color: rgb(0, 229, 255);">View reports.</a></p>
+    </div>
+
+    <div class="info-box">
+      <h3>Shareholder Meetings</h3>
+      <p>Join our upcoming shareholder meetings to get the latest updates. <a href="#" style="color: rgb(0, 229, 255);">Check the schedule.</a></p>
+    </div>
+
+    <div class="footer-info-box">
+      <h3>Investor FAQs</h3>
+      <p>Have questions? Find answers in our investor FAQs. <a href="footer_faq.html" style="color: rgb(0, 229, 255);">Read more.</a></p>
+    </div>
+
+    <button class="back-to-footer" onclick="window.location.href='index.html#footer'">Go to Footer</button>
+  </section>
+  
+</body>
+</html>
