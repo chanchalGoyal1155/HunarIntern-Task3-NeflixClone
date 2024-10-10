@@ -36,26 +36,26 @@
     float: right;
     font-size: 28px;
     font-weight: bold;
-    position: absolute; /* Position the close button */
-    top: 10px; /* Adjust distance from the top */
-    right: 15px; /* Adjust distance from the right */
+    position: absolute; 
+    top: 10px;
+    right: 15px;
 }
 
 .close-btn:hover,
 .close-btn:focus {
-    color: white; /* Change color on hover */
+    color: white; 
     text-decoration: none;
     cursor: pointer;
 }
 
 h2 {
-    color: white; /* Title color */
-    margin-top: 10px; /* Adjust top margin */
-    font-size: 20px; /* Set a specific font size for titles */
+    color: white; 
+    margin-top: 10px; 
+    font-size: 20px;
 }
 
 p {
-    color: #ccc; /* Description color */
-    margin: 5px 0; /* Adjust margin */
-    font-size: 16px; /* Set a specific font size for paragraphs */
+    color: #ccc;
+    margin: 5px 0;
+    font-size: 16px; 
 }

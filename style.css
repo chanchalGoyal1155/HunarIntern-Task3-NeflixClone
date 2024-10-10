@@ -349,24 +349,24 @@
     justify-content: space-between;
     background-color: #2d2d2d;
     padding: 24px;
-    max-width: 60vw; /* Width ko 60vw tak limit kiya */
-    margin: 34px auto; /* Center alignment */
+    max-width: 60vw; 
+    margin: 34px auto; 
     cursor: pointer;
   }
   
   /* Answer Design */
   .answer {
-    display: none; /* Initially hidden */
-    background-color: #3b3b3b; /* Dark background for the answer */
-    padding: 16px; /* Padding around the answer */
-    border-radius: 5px; /* Rounded corners */
-    margin-top: 10px; /* Space between question and answer */
-    color: #ccc; /* Light color for text */
-    font-size: 20px; /* Font size for answer */
-    max-width: 60vw; /* Same width as the question box */
-    margin-left: auto; /* Center alignment */
-    margin-right: auto; /* Center alignment */
-    transition: max-height 0.3s ease; /* Smooth transition effect */
+    display: none; 
+    background-color: #3b3b3b; 
+    padding: 16px; 
+    border-radius: 5px; 
+    margin-top: 10px; 
+    color: #ccc; 
+    font-size: 20px;
+    max-width: 60vw;
+    margin-left: auto; 
+    margin-right: auto;
+    transition: max-height 0.3s ease; 
   }
   
 

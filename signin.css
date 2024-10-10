@@ -1,5 +1,5 @@
 
-        /* Background with blur and overlay effect */
+        
         body {
             margin: 0;
             height: 100vh;
@@ -12,7 +12,7 @@
             color: white;
         }
 
-        /* Background blur effect */
+       
         body::before {
             content: "";
             position: absolute;
@@ -25,7 +25,7 @@
             z-index: 0;
         }
 
-        /* Container for the sign-in form */
+        
         .container {
             position: relative;
             max-width: 400px;

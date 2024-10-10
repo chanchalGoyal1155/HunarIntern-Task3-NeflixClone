@@ -1,10 +1,10 @@
 document.querySelectorAll('.faqbox').forEach(box => {
     box.addEventListener('click', () => {
-      const answer = box.nextElementSibling; // Find the answer div next to clicked box
+      const answer = box.nextElementSibling; 
       if (answer.style.display === 'block') {
-        answer.style.display = 'none'; // Hide answer if already visible
+        answer.style.display = 'none'; 
       } else {
-        answer.style.display = 'block'; // Show answer if hidden
+        answer.style.display = 'block'; 
       }
     });
   });
